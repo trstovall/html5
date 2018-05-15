@@ -13,6 +13,43 @@ body {
     border: 1px solid #e3e3e3
 }
 
+.jumbotron {
+    background-color: #eee;
+    
+}
 
+h1 {
+    font-size: bigger;
+    font-weight: bolder;
+}
 
+.form-control {
+    line-height: 1.4;
+    border: 1px solid #ccc;
+}
 
+.alert {
+    border: 1px solid transparent;
+}
+
+.alert-info {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+.alert-warning {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+
+.alert-success {
+    color: #3c763d;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+
+.label {
+    font-weight: 700;
+}
