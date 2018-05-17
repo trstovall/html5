@@ -5,21 +5,24 @@
   </head>
   <body>
     <header class="jumbotron">
-      <nav>    
-        <ul>
-          <li><a href="login.html">login</a></li>
-          <li><a href="aboutus.html">about us</a></li>
-          <li><a href="catalog.html">catalog</a></li>
-          <li><a href="checkout.html">checkout</a></li>
-          <li><a href="contactus.html">contact us</a></li>
-          <li><a href="product.html">products</a></li>
-          <li><a href="register.html">register</a></li>
-          <li><a href="search.html">search</a></li>
+      <img class="headerImg" src="img/logo.jpeg" alt=""/>
+      <div class="headerH1">
+        <h1>Northwind Traders</h1>
+        <h2>Fine foods for restaurants</h2>
+      </div>
+      <div class="clearfix"></div>
+      <nav>
+        <ul class="nav-links">
+          <li class="nav-link"><a href="login.html">login</a></li>
+          <li class="nav-link"><a href="aboutus.html">about us</a></li>
+          <li class="nav-link"><a href="catalog.html">catalog</a></li>
+          <li class="nav-link"><a href="checkout.html">checkout</a></li>
+          <li class="nav-link"><a href="contactus.html">contact us</a></li>
+          <li class="nav-link"><a href="product.html">products</a></li>
+          <li class="nav-link"><a href="register.html">register</a></li>
+          <li class="nav-link"><a href="search.html">search</a></li>
         </ul>
       </nav>
-      <img src="img/logo.jpeg" alt=""/>
-      <h1>Northwind Traders</h1>
-      <h2>Fine foods for restaurants</h2>
       <p>We focus on supplying high-end specialty restaurants
          with the best quality foods sourced from around the
          world and shipped to your door.
@@ -28,30 +31,24 @@
     <main>
       <section>
         <h3>Today's featured items</h3>
-        <div id="22">
-          <a class="productImage" href="product.html#/12">Queso</a>
-          <a class="productImage" href="product.html#/12">
+        <div class="featured-links">
+          <a class="featuredFlexItem" href="product.html#/12">
             <img src="img/productImages/12.jpg" alt="cheese wheel"/>
+            <div>Cheese Wheel</div>
           </a>
-        </div>
-        <div>
-          <a class="productImage" href="product.html#/13">Seaweed</a>
-          <a class="productImage" href="product.html#/13">
+          <a class="featuredFlexItem" href="product.html#/13">
             <img src="img/productImages/13.jpg" alt="seaweed"/>
+            <div>Seaweed</div>
           </a>
-        </div>
-        <div>
-          <a class="productImage" href="product.html#/14">Tofu</a>
-          <a class="productImage" href="product.html#/14">
+          <a class="featuredFlexItem" href="product.html#/14">
             <img src="img/productImages/14.jpg" alt="Tofu"/>
+            <div>Tofu</div>
           </a>
-        </div>
-        <div>
-          <a class="productImage" href="product.html#/15">Soy Sauce</a>
-          <a class="productImage" href="product.html#/15">
+          <a class="featuredFlexItem" href="product.html#/15">
             <img src="img/productImages/15.jpg" alt="Soy Sauce"/>
+            <div>Soy Sauce</div>
           </a>
-        </div>
+      </div>
       </section>
       <article class="well" id="whyus">
         <h3>Why us?</h3>
@@ -65,12 +62,12 @@
       </article>
     </main>
     <footer>
-      <ul>
-        <li><a href="#">Facebook</a></li>
-        <li><a href="#">Twitter</a></li>
-        <li><a href="#">LinkedIn</a></li>
+      <ul class="nav-links">
+        <li class="nav-link"><a href="#">Facebook</a></li>
+        <li class="nav-link"><a href="#">Twitter</a></li>
+        <li class="nav-link"><a href="#">LinkedIn</a></li>
       </ul>
-      &copy; 2018 Thomas Ryan Stovall
+      <copy>&copy; 2018 Thomas Ryan Stovall</copy>
     </footer>
   </body>
 </html>
