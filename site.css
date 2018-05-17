@@ -132,3 +132,37 @@ h1 {
     flex-shrink: 1;
 }
 
+@media (max-width: 768px)  {
+    body{
+        background-color: yellow;
+    }
+    .featured-links {
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+            'i1' 'i2' 'i3' 'i4';}
+    #whyus {display: none}
+    .headerImg {
+        width: 100%;
+        float: none;
+    }
+    .headerH1 {
+        width: auto;
+        float: none;
+    }
+    .nav-links {
+        display: flex;
+        flex-direction: column
+    }
+}
+
+@media (min-width: 992px)  {
+    
+#Accinfo {
+    width: 50%;
+    float: left;
+}
+#Addinfo {
+    width: 50%;
+    float: left;
+}
+}
