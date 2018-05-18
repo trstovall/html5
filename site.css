@@ -34,6 +34,12 @@ h1 {
     height: 35px;
     padding: 6px 12px 6px 12px;
     font-size: 14px;
+    transition: box-shadow .25s ease-in-out 0s;
+    /*transform: ;*/
+}
+
+ .form-control:focus {
+    box-shadow: inset 0px 0px 8px blue;
 }
 
 .alert {
@@ -180,13 +186,41 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
     line-height: 1-1;
 }
+
 h1, h2, h3 {
     margin-top: 20px;
     margin-bottom: 10px;
 }
- .form-control:focus {
-    box-shadow: inset 0px 0px 8px blue;
+
+.toast {
+    background-color: green;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 250px;
+    min-height: 50px;
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 1s ease;
+    transform: translateY(-500px);
 }
+
+.showToast {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
+
+
+
+
+
+
+
+
 .headerImg {
     width: 200px;
     height: 100px;

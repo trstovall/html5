@@ -29,6 +29,9 @@
       </p>
     </header>
     <main>
+      <button id="go">Go</button>
+      <button id="close">Close</button>
+      <div class="toast">Your order has been placed.</div>
     </main>
     <footer>
       <ul class="nav-links">
@@ -38,5 +41,11 @@
       </ul>
       <copy>&copy; 2018 Thomas Ryan Stovall</copy>
     </footer>
+    <script>
+      const toggle = () => t.classList.toggle('showToast');
+      const t = document.getElementsByClassName('toast')[0];
+      document.getElementById('go').addEventListener('click', toggle);
+      document.getElementById('close').addEventListener('click', toggle);
+    </script>
   </body>
 </html>
