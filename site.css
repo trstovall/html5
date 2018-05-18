@@ -123,19 +123,23 @@ h1 {
     grid-area: i4;
 }
 
-.featuredFlexItem img {
+.featured-links img {
     width: 200px;
 }
 
 .nav-links {
     display: flex;
+    list-style-type: none
 }
 
-.nav-link {
+.nav-links li {
     flex-grow: 1;
     flex-shrink: 1;
 }
-
+.nav-links :nth-child(1) ~ *::before  {
+    content: "|";
+    padding-right: 15px;
+}
 @media (max-width: 768px)  {
     body{
         background-color: yellow;
@@ -172,6 +176,17 @@ h1 {
     }
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+    line-height: 1-1;
+}
+h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+ .form-control:focus {
+    box-shadow: inset 0px 0px 8px blue;
+}
 .headerImg {
     width: 200px;
     height: 100px;
